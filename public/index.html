@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>What Fucking Technology Should I Be Learning?</title>
+
+  <script type="text/javascript">
+    WebFontConfig = {
+      google: { families: [ 'Scada:400,700:latin' ] }
+    };
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+  </script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <style type="text/css">
+    html, body {
+      font-family: 'Scada', sans-serif;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row page-header text-center">
+      <div class="col-xs-12 col-md-12 form-inline">
+        <div class="lead">I AM INTERESTED IN </div> <select id="role" class="form-control">
+          <option selected disabled="disabled">-- PICK AN AREA --</option>
+          <option value="programming">PROGRAMMING</option>
+          <option value="devops">DEV-OPS</option>
+          <option value="design">DESIGN</option>
+        </select>
+      </div>
+    </div>
+
+    <section id="answer" class="hidden center-block">
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+          <h3 class="text-center">
+            HOW ABOUT <a id="technology" href="#"></a>, <span id="insult"></span>?
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-12 text-center">
+          <button id="no" class="btn btn-default">BOLLOCKS! PICK SOMETHING ELSE.</button>
+          <button id="yes" class="btn btn-default">THAT SOUNDS GREAT. THANKS!</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer></footer>
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

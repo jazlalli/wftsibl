@@ -1,0 +1,14 @@
+{
+  "name": "wftsibl",
+  "description": "A really helpful and friendly site to aid your learning",
+  "author": "Jasdeep Lalli",
+  "dependencies": {
+    "express": "~3.4.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jazlalli/wftsibl.git"
+  },
+  "licence": "MIT",
+  "engine": "node 0.10.x"
+}
