@@ -89,14 +89,17 @@
     getResponse();
 
     $answer.className = 'show';
+    ga('send', 'event', 'dropdown', 'select', 'role', response.role);
   };
 
   $no.onclick = function () {
     getResponse();
+    ga('send', 'event', 'button', 'click', 'no');
   };
 
   $yes.onclick = function () {
     window.open(response.url);
+    ga('send', 'event', 'button', 'click', 'yes');
   };
 
 }());
