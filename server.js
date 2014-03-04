@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var port = 4321 || node.env.PORT;
+var port = 4321 || process.env.PORT;
 
 app.use(express.static('public'));
 
